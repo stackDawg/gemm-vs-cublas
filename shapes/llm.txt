@@ -1,0 +1,19 @@
+# LLM-style projections: M = tokens (1 = decode, 512 = prefill chunk), N x K = weight shape.
+# Small M makes these bandwidth-bound: the whole weight matrix is read to do very little math.
+1 4096 4096
+8 4096 4096
+16 4096 4096
+32 4096 4096
+64 4096 4096
+128 4096 4096
+512 4096 4096
+1 11008 4096
+16 11008 4096
+64 11008 4096
+128 11008 4096
+512 11008 4096
+1 4096 11008
+16 4096 11008
+64 4096 11008
+128 4096 11008
+512 4096 11008

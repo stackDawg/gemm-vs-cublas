@@ -1,0 +1,14 @@
+# Awkward shapes: off-by-one around tile boundaries, primes, and K/N % 8 != 0 (forces the
+# scalar-load fallback: no 16B vector loads, no cp.async).
+4096 4096 4096
+4097 4097 4097
+4095 4095 4095
+4096 4096 4095
+4096 4095 4096
+1000 1000 1000
+1024 1024 1024
+1531 1531 1531
+3000 3000 3000
+4097 4096 4096
+4096 4097 4096
+129 4096 4096

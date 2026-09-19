@@ -1,0 +1,11 @@
+# Small output, long K: too few output tiles to fill the SMs -> the split-K showcase.
+64 64 4096
+64 64 16384
+64 64 65536
+128 128 4096
+128 128 16384
+128 128 65536
+256 256 4096
+256 256 16384
+256 256 65536
+512 512 16384
